@@ -10,7 +10,7 @@ void convertCelsiusToFahrenheit() {
     std::cout << celsius << " degrees Celsius is " << fahrenheit << " degrees Fahrenheit." << std::endl;
 }
 
-void convertCelsiusToFahrenheit() {
+void convertFahrenheitToCelsius() {
     std::cout << "Enter the temperature in Fahrenheit: ";
     double fahrenheit;
     std::cin >> fahrenheit;
@@ -21,5 +21,8 @@ void convertCelsiusToFahrenheit() {
 }
 
 int main() {
+    convertCelsiusToFahrenheit();
+    convertFahrenheitToCelsius();
+
     return 0;
 }
